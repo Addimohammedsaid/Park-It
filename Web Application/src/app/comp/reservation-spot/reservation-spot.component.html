@@ -1,0 +1,13 @@
+<div *ngIf="spots">
+  <div *ngFor="let spot of result">
+    <span>{{ spot.reserved }}</span>
+  </div>
+</div>
+
+<div *ngFor="let reservation of reservations">
+  <span>{{ reservation.key }}</span>
+  <div *ngIf="reservation?.images" class="reservation_image">
+    <img class="esp32" [attr.src]="reservation?.images?.car_image" />
+    <img [attr.src]="reservation?.images?.car_plate" />
+  </div>
+</div>

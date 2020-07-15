@@ -1,0 +1,10 @@
+Flask==1.0.2
+scikit-image==0.17.2
+numpy==1.19.0
+firebase_admin
+google-api-python-client
+google-auth==1.18.0
+pandas==1.0.5
+scikit-learn==0.20.0
+pypng
+google-cloud-vision
